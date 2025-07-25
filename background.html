@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Santosh's Website</title>
+  <title>about</title>
   <style>
     body {
       background-color: #f1e9e2; 
@@ -16,10 +16,12 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
+      padding: 40px 20px;
+      box-sizing: border-box;
     }
 
     .writing-box {
-      background-color: #f1e9e2;
+      background-color: #fff;
       color: #789922;
       padding: 20px;
       width: 80%;
@@ -27,11 +29,10 @@
       border-radius: 8px;
       border: 2px solid #789922;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      min-height: 200px;
-    }
-
-    .writing-box[contenteditable] {
-      outline: none;
+      line-height: 1.6;
+      font-size: 1rem;
+      text-align: left;
+      white-space: pre-wrap; /* Keeps all line breaks and spacing */
     }
 
     a {
@@ -48,19 +49,23 @@
   </style>
 </head>
 <body>
-  <div class="writing-box" contenteditable="true">
-    Hello. My name is Santosh.
-    Student at Brown proably studying Mathematics and Classics (South Asian)
-    Hobbies:
-    - Bouldering 
-    - Trying New Cafes
-    Favourite Media:
-    - Breaking Bad and Adjacents 
-    - Choke by Chuck Palahniuk 
-    - Final Fantasy (VII, VII Remake, X & X-2)
-    - Siddhartha by Hermann Hesse
+  <div class="writing-box">
+Hello. My name is Santosh.
+Student at Brown probably studying Mathematics and Classics (South Asian)
+
+Hobbies:
+- Bouldering 
+- Trying New Cafes
+
+Favourite Media:
+- Breaking Bad and Adjacents 
+- Choke by Chuck Palahniuk 
+- Final Fantasy (VII, VII Remake, X & X-2)
+- Siddhartha by Hermann Hesse
   </div>
 
+  <a href="https://www.linkedin.com/in/santosh-manikandan/" target="_blank">
+    LinkedIn
   </a>
 </body>
 </html>
